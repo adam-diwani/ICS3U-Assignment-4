@@ -1,0 +1,76 @@
+#!/usr/bin/env python3
+
+# Created by: Adam Diwani
+# Created on: December 10, 2020
+# This program tells users if a letter is a vowel orconsonant
+
+def main():
+   
+    #input
+    letter_string = input("Enter a letter in capital: ")
+   
+    #process
+    try:
+        letter_vowel = int(letter_string)
+        print("This is not a letter.")
+
+    except Exception:
+        letter_vowel = letter_string
+
+        if letter_vowel == "A":
+    #Output
+            print("A is a vowel.")
+        if letter_vowel == "B":
+            print("B is a consonant.")
+        if letter_vowel == "C":
+            print("C is a consonant.")
+        if letter_vowel == "D":
+            print("D is a consonant.")
+        if letter_vowel == "E":
+            print("E is a vowel.")
+        if letter_vowel == "F":
+            print("F is a consonant.")
+        if letter_vowel == "G":
+            print("G is a consonant.")
+        if letter_vowel == "H":
+            print("H is a consonant.")
+        if letter_vowel == "I":
+            print("I is a vowel.")
+        if letter_vowel == "J":
+            print("J is a consonant.")
+        if letter_vowel == "K":
+            print("K is a consonant.")
+        if letter_vowel == "L":
+            print("L is a consonant.")
+        if letter_vowel == "M":
+            print("M is a consonant.")
+        if letter_vowel == "N":
+            print("N is a consonant.")
+        if letter_vowel == "O":
+            print("O is a vowel")
+        if letter_vowel == "P":
+            print("P is a consonant.")
+        if letter_vowel == "Q":
+            print("Q is a consonant.")
+        if letter_vowel == "R":
+            print("R is a consonant.")
+        if letter_vowel == "S":
+            print("S is a consonant.")
+        if letter_vowel == "T":
+            print("T is a consonant.")
+        if letter_vowel == "U":
+            print("U is a vowel.")
+        if letter_vowel == "V":
+            print("V is a consonant.")
+        if letter_vowel == "W":
+            print("W is a consonant.")
+        if letter_vowel == "X":
+            print("X is a consonant.")
+        if letter_vowel == "Y":
+            print("Y is a consonant.")
+        if letter_vowel == "Z":
+            print("Z is a consonant.")
+
+
+if __name__ == "__main__":
+    main()
